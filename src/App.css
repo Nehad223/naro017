@@ -13,8 +13,6 @@ body {
   font-weight: 700 !important;
 background-color:  #0E0E11 !important;
 
-
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-y: hidden;
@@ -113,7 +111,8 @@ background-color:  #0E0E11 !important;
   position: relative;
   width: 100% !important;
   padding: 10px;
-  background-color: #1C1C1C !important;
+  background-color: rgba(20, 20, 26, 0.8) !important;
+  backdrop-filter: blur(8px);
   box-sizing: border-box;
 }
 
@@ -203,7 +202,10 @@ button::-moz-focus-inner { border: 0; }
 
 .Cards > :last-child:nth-child(odd) { grid-column: 2; }
 
-.Card_Slider { background-color: #1F1A12 !important; border-radius: 10px; }
+.Card_Slider { background-color: #1A1A22 !important;
+   border-radius: 10px;
+   border: 1px solid rgba(255,255,255,0.04);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4); }
 .card { background-color: transparent !important; }
 
 /* Image wrapper */
@@ -239,8 +241,8 @@ button::-moz-focus-inner { border: 0; }
   width: 100%;
   padding: 5px;
   text-align: center;
-  background: #0E0E11;
-  color: #E6CEB4 !important;
+  background: #1A1A22;
+  color:#E6E6EB !important;
   border-radius: 0 0 8px 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,.1);
 }
