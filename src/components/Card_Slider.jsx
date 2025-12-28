@@ -10,7 +10,7 @@ const Card_Slider = ({
   Id,
   isAdmin,
   onDelete,
-  onUpdateProduct, // دالة تحديث كل الخصائص
+  onUpdateProduct, 
 }) => {
   const [loaded, setLoaded] = useState(false);
   const [showModal, setShowModal] = useState(false);
