@@ -29,7 +29,7 @@ export default function AdminPage() {
   useEffect(() => {
     if (!token) return;
 
-    fetch("https://snackalmond1.pythonanywhere.com/getcategories/", {
+    fetch("https://taza041.pythonanywhere.com/getcategories/", {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -84,7 +84,7 @@ export default function AdminPage() {
 
     try {
       const res = await fetch(
-        "https://snackalmond1.pythonanywhere.com/createcategory/",
+        "https://taza041.pythonanywhere.com/createcategory/",
         {
           method: "POST",
           headers: {
@@ -124,7 +124,7 @@ export default function AdminPage() {
     try {
 
       const res = await fetch(
-        "https://snackalmond1.pythonanywhere.com/createmeal/",
+        "https://taza041.pythonanywhere.com/createmeal/",
         {
           method: "POST",
           headers: {

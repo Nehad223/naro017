@@ -16,7 +16,7 @@ const [activeCategory, setActiveCategory] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://snackalmond1.pythonanywhere.com/home/")
+    fetch("https://taza041.pythonanywhere.com/home/")
       .then((res) => res.json())
       .then((json) => {
         setData(json);
