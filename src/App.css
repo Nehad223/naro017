@@ -84,8 +84,8 @@ background-color:  #0E0E11 !important;
 .logo::before {
   content: "";
   position: absolute;
-  width: 300px;
-  height: 120px;
+  width: 250px;
+  height: 70px;
   background: radial-gradient(
     circle,
     rgba(255, 255, 255, 0.1) 0%,
@@ -100,7 +100,7 @@ background-color:  #0E0E11 !important;
 .logo img {
   position: relative;
   width: 30vh;
-  height: 20vh;
+  height: 17vh;
   display: block;
   pointer-events: none;
   z-index: 1;
